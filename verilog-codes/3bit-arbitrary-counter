@@ -1,0 +1,19 @@
+module cntr(clk,rst,cnt);
+input clk,rst;
+output reg [2:0] cnt; reg [2:0] icnt; always@(posedge clk) begin
+if(rst)
+icnt <=0;
+else if(icnt==6)
+icnt <=0;
+else
+icnt <= icnt + 1; end always@(icnt) begin
+case(icnt)
+3'b000 : cnt = 3'b000;
+3'b001 : cnt = 3'b001;
+3'b010 : cnt = 3'b010;
+3'b011 : cnt = 3'b011;
+3'b100 : cnt = 3'b110;
+3'b101 : cnt = 3'b101;
+3'b110 : cnt = 3'b111;
+Endcase
+endmodule
