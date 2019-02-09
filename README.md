@@ -16,3 +16,7 @@ Your one-stop shop for all fpga programs- in your favourite language-->Python
 - [SEQUENCE DETECTOR-DESIGN OF SEQUENCE DETECTOR(11101) WITH AND WITHOUT OVERLAPPING USING MOORE STATE MACHINE](verilog-codes/sequence-detector1.v)
 - [SEQUENCE DETECTOR- DESIGN OF SEQUENCE DETECTOR WITH AND WITHOUT OVERLAPPING USING MEALY STATE MACHINE](verilog-codes/sequence-detector-overlap.v)
 - [FIRST IN FIRST OUT (FIFO)](verilog-codes/fifo.v)
+
+## Contributing ##
+Convert all verilog files from [here](verilog-codes) to myHDL [here](myHDL-codes) with proper Documentation.
+More verilog and VHDL files will be added [here](verilog-codes)
