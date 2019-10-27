@@ -20,3 +20,7 @@ Your one-stop shop for all fpga programs- in your favourite language-->Python
 ## Contributing ##
 Convert all verilog files from [here](verilog-codes) to myHDL [here](myHDL-codes) with proper Documentation.
 More verilog and VHDL files will be added [here](verilog-codes)
+
+## License
+
+MIT License.
