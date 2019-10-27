@@ -23,4 +23,4 @@ More verilog and VHDL files will be added [here](verilog-codes)
 
 ## License
 
-MIT License.
+MIT License. You are free to copy and reuse the code.
